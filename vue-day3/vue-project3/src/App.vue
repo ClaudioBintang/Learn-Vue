@@ -29,10 +29,10 @@ onMounted(() => {
 }
 ) //useEffect in Vue
 
-//updating use (watch) 
-//routing, detail user (meet 4)
-//post rewuest login auth authorizaytion 
-//composable & state management 
+//updating use (watch) this homework
+//routing, detail page (meet 4)
+//post request login auth authorization (meet 5)
+//composable & state management (meet 6)
 </script>
 
 <template>
@@ -45,6 +45,7 @@ onMounted(() => {
     <h1>Test API ke-2</h1>
     <div>
       <p v-for="item in todos">{{ item.title }}</p>
+      <p v-for="item in todos">{{ item.completed }}</p>
     </div>
 </template>
 
